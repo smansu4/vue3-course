@@ -12,25 +12,60 @@
       padding: 20px;
       font-size: 2em;
     }
+    .can {
+      color: green;
+    }
+    .cant {
+      color: red;
+    }
   </style>
-  <!-- <script src="https://unpkg.com/vue@3.4.0"></script> -->
+  <!-- Loads Vue script into the page -->
+  <script src="https://unpkg.com/vue@3.4.0"></script>
 </head>
 
 <body>
   <div id="app">
     <div>
-      {{message}}
+      <!-- intepolation; vue want to render value of message -->
+      <div>{{message}}</div>
+      <br>
+      <div>
+        <label>Enter your age:</label>
+        <input v-model="age">
+      </div>
+      <div>Can you drive: <span :class="{can: canDrive === 'Yes', cant: canDrive === 'No'}">{{canDrive}}</span></div>
     </div>
   </div>
   <script>
-    // const { createApp, ref } = Vue;
-    // const App = {
-    //   setup() {
-        
-    //   },
-    // };
+    // vue object with createApp and ref functions
+    // /ref vue knows the data is reactive and will update the 
+    // screen with new value
+    const { createApp, ref, computed } = Vue;
+    const App = {
+      setup() {
+        //Where app logic goes
 
-    // createApp(App).mount('#app');
+        //w.out ref the initial value of ref will not update after the timeout
+        //let message = 'Hello';
+        let message = ref('Can You Drive?');
+        let age = ref(null);
+        let canDrive = computed(
+          () => {
+            return age.value >= 18 ? 'Yes' : 'No';
+          }
+        );
+
+        return {
+          message,
+          canDrive,
+          age
+        }
+      },
+    };
+
+    //Create vue appication
+    //mount app element
+    createApp(App).mount('#app');
   </script>
 </body>
 
