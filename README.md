@@ -21,4 +21,5 @@ A mini project that confirms whether a user can legally drive based on their ent
     * Form input bindings: https://vuejs.org/guide/essentials/forms.html
 
  ### 2. Simple Quiz Game  
-A simple game that asks you predefined math questions. Goal is to answer as many questions correctly as quickly as possible. 
+A game that asks you predefined math questions. Goal is to answer as many questions correctly as quickly as possible. 
+The questions are asked every 4 seconds.
