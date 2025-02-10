@@ -23,3 +23,12 @@ A mini project that confirms whether a user can legally drive based on their ent
  ### 2. Simple Quiz Game  
 A game that asks you predefined math questions. Goal is to answer as many questions correctly as quickly as possible. 
 The questions are asked every 4 seconds.
+
+- todo: add a timer
+- todo: add a reset button
+
+### 3. Image Gallery with Favorites
+A image gallary app that allows the user to add images and mark them as favorites.
+
+* Related docs: 
+    * Message handling: https://vuejs.org/guide/essentials/event-handling
