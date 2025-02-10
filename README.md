@@ -11,7 +11,6 @@ To run the projects:
 
 
 ## Mini Projects: 
-The mini projects are: 
 
 ### 1. Can you drive?
 A mini project that confirms whether a user can legally drive based on their entered age.
@@ -21,3 +20,5 @@ A mini project that confirms whether a user can legally drive based on their ent
     * Class and Style Bindings: https://vuejs.org/guide/essentials/class-and-style.html
     * Form input bindings: https://vuejs.org/guide/essentials/forms.html
 
+ ### 2. Simple Quiz Game  
+A simple game that asks you predefined math questions. Goal is to answer as many questions correctly as quickly as possible. 
