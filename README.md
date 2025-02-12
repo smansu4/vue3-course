@@ -30,10 +30,12 @@ The questions are asked every 4 seconds.
 ### 3. Image Gallery with Favorites
 A image gallary app that allows the user to add images and mark them as favorites.
 
-To add images to the gallary:
+To add images to the gallery:
 1. go to: `https://unsplash.com/`
 2. serch an image to upload
 3. left click the image and select `Copy Image Address`
+
+Clicking on the photo will remove photo from the library. 
 
 * Related docs: 
     * Message Handling: https://vuejs.org/guide/essentials/event-handling

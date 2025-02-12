@@ -66,7 +66,7 @@
     <p class="no-photos" v-if="photos.length === 0">No photos added yet. Add some!</p>
     <div class="gallery" v-else>
       <div class="photo" v-for="photo in photos" :key="photo.id">
-        <image :src="photo.url"/>
+        <image :src="photo.url" @click="removePhoto(photo.id)"/>
         <button class="favorite-button" @click="toggleFavorite(photo)" :class="{'active': photo.isFavorite}">
           ★
         </button>
@@ -95,12 +95,16 @@
         const toggleFavorite = (photo) => {
           photo.isFavorite = !photo.isFavorite;
         };
+        const removePhoto = (id) => {
+          photos.value = photos.value.splice(id);
+        }
 
         return {
             addPhoto,
             photos,
             newPhotoUrl,
-            toggleFavorite
+            toggleFavorite,
+            removePhoto
         }
       },
     };
