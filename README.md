@@ -20,12 +20,16 @@ A mini project that confirms whether a user can legally drive based on their ent
     * Class and Style Bindings: https://vuejs.org/guide/essentials/class-and-style.html
     * Form Input Bindings: https://vuejs.org/guide/essentials/forms.html
 
+--- 
+
  ### 2. Simple Quiz Game  
 A game that asks you predefined math questions. Goal is to answer as many questions correctly as quickly as possible. 
 The questions are asked every 4 seconds.
 
 - todo: add a timer
 - todo: add a reset button
+
+---
 
 ### 3. Image Gallery with Favorites
 A image gallary app that allows the user to add images and mark them as favorites.
@@ -46,4 +50,12 @@ Clicking on the photo will remove photo from the library.
     * Maintaining State with Key: https://vuejs.org/guide/essentials/list#maintaining-state-with-key
     * List Rendering: https://vuejs.org/guide/essentials/list 
 
-### 4. Task Manager
+--- 
+### 4. Task Manager (aka List Application)
+This project allows the user to add tasks, set priority, filter, check off, and delete tasks from a list. 
+
+* Related docs:
+    * Lifecycle hooks
+    * Template Refs
+    * Watchers
+    *
