@@ -43,3 +43,7 @@ Clicking on the photo will remove photo from the library.
     * Conditional Rendering: https://vuejs.org/guide/essentials/conditional.html#conditional-rendering
     * Rendering Lists: https://vuejs.org/guide/essentials/list.html#list-rendering
     * Attribute Binding: https://vuejs.org/guide/essentials/template-syntax.html#attribute-bindings 
+    * Maintaining State with Key: https://vuejs.org/guide/essentials/list#maintaining-state-with-key
+    * List Rendering: https://vuejs.org/guide/essentials/list 
+
+### 4. Task Manager
