@@ -52,12 +52,15 @@ Clicking on the photo will remove photo from the library.
 
 --- 
 ### 4. Task Manager (aka List Application)
-* Note: This project was completed using Cursor.ai. Thought I'd take a stab at using an ai editor and see how it goes. The [initial file](https://github.com/smansu4/vue3-course/blob/main/task-manager/task-manager.html) with basic text input, filter input, add button, and the list component was given to the ai. The rest of the component hookup, functionality, and styling was completed by the ai with prompts written by me. 
+* Note: This project was completed using Cursor.ai. Tried using an ai editor for the first time to see how it goes. The [initial file](https://github.com/smansu4/vue3-course/blob/main/task-manager/task-manager.html) with basic text input, filter input, add button, and the list component was given to the ai. The component hookup, functionality, and styling was completed by the ai with prompts written by me. 
 
-This project allows the user to add tasks, set priority, filter by text and priority, check off, and delete tasks from a list. 
+This project allows the user to add tasks, set priority, filter by text, filter by priority, check off tasks, and delete tasks from a list. 
 
 * Related docs:
-    * Lifecycle hooks
-    * Template Refs
-    * Watchers
-    *
+    * Lifecycle hooks: https://vuejs.org/guide/essentials/lifecycle.html
+    * Template Refs: https://vuejs.org/guide/essentials/template-refs.html
+    * Watchers: https://vuejs.org/guide/essentials/watchers.html
+    * Watch Effects: https://vuejs.org/guide/essentials/watchers.html#watcheffect
+    * Eager Watchers: https://vuejs.org/guide/essentials/watchers.html#eager-watchers
+    * Local Storage: https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
+
