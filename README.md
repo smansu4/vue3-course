@@ -52,7 +52,9 @@ Clicking on the photo will remove photo from the library.
 
 --- 
 ### 4. Task Manager (aka List Application)
-This project allows the user to add tasks, set priority, filter, check off, and delete tasks from a list. 
+* Note: This project was completed using Cursor.ai. Thought I'd take a stab at using an ai editor and see how it goes. The [initial file](https://github.com/smansu4/vue3-course/blob/main/task-manager/task-manager.html) with basic text input, filter input, add button, and the list component was given to the ai. The rest of the component hookup, functionality, and styling was completed by the ai with prompts written by me. 
+
+This project allows the user to add tasks, set priority, filter by text and priority, check off, and delete tasks from a list. 
 
 * Related docs:
     * Lifecycle hooks
