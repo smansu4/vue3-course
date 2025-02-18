@@ -93,8 +93,8 @@
     <div v-else>
       <h3>Your Tasks</h3>
       <div v-for="(task, index) in filteredTasks" :key="task.id" 
-      :class="{'task': true, 'completed': task.done, [task.priority.toLowerCase()]: true}">
-        <div>
+      :class="{'task': true, [task.priority.toLowerCase()]: true}">
+        <div :class="{'completed': task.done}">
           <input type="checkbox" v-model="task.done" :class="{'margin-right': true}">
           <span>{{task.description}}</span>
         </div>
