@@ -1,6 +1,6 @@
 # About
 
-This repository contains mini projects as part of a udemy course I am taking to learn Vue.js
+This repository contains mini projects as part of a [udemy course](https://www.udemy.com/course/vue-in-action/) I am taking to learn Vue.js
 
 
 ## How to Run: 
@@ -51,10 +51,13 @@ Clicking on the photo will remove photo from the library.
     * List Rendering: https://vuejs.org/guide/essentials/list 
 
 --- 
-### 4. Task Manager (aka List Application)
-* Note: This project was completed using Cursor.ai. Tried using an ai editor for the first time to see how it goes. The [initial file](https://github.com/smansu4/vue3-course/blob/main/task-manager/task-manager.html) with basic text input, filter input, add button, and the list component was given to the ai. The component hookup, functionality, and styling was completed by the ai with prompts written by me. 
 
+### 4. Task Manager (aka List Application)
 This project allows the user to add tasks, set priority, filter by text, filter by priority, check off tasks, and delete tasks from a list. 
+
+* Note: There are two files that implement this mini project: `task-manager-ai.html` and `task-manager2.html`. `task-manager-ai.html` was completed using Cursor.ai. Tried using an ai editor for the first time to see how it goes. The [initial file](https://github.com/smansu4/vue3-course/blob/main/task-manager/task-manager.html) with basic text input, filter input, add button, and the list component was given to the ai. The component hookup, functionality, and styling was completed by the ai with prompts written by me. 
+
+`task-manager2.html` was not written by ai, wanted to walk through course and write code since intend to learn vue. 
 
 * Related docs:
     * Lifecycle hooks: https://vuejs.org/guide/essentials/lifecycle.html

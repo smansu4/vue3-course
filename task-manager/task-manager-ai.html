@@ -131,6 +131,7 @@
 
     const App = {
       setup() {
+        //todo: The complete srikes out the delete (x) icon
         // Initialize tasks from localStorage, or empty array if none exists
         const tasks = ref(JSON.parse(localStorage.getItem('tasks')) || []);
         const newTask = ref('');
