@@ -90,16 +90,17 @@
   </div>
 
   <script>
-    const { createApp, onMounted, ref, watch } = Vue;
+    const { createApp, onMounted, ref, watch, watchEffect } = Vue;
 
     const App = {
       setup() {
-        //get access to the dom element for input
-        const newTaskInput = ref(null);
+        const newTaskInput = ref(null); //get access to the dom element for input
         const newTask = ref('');
         const newPriority = ref('');
         const filter = ref('');
-        const taskList = ref([]);
+        const taskList = ref(
+          JSON.parse(localStorage.getItem('taskList') ?? '[]')
+        );
 
         onMounted(() => {
           newTaskInput.value.focus();
@@ -120,8 +121,11 @@
         };
 
         watch(taskList, () => {
-          console.log(newValue);
-        });
+          localStorage.setItem(
+            'taskList',
+            JSON.stringify(taskList.value)
+          )
+        }, {deep: true});
 
         return {
           taskList,
